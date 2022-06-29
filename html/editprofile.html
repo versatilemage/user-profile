@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Profile page</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/editprofile.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/editprofile.css">
+</head>
 
-    <body onload="editingProfile()">
-       <header id="headofprofile">
-        <h2 id="headed">Input Changes</h2>
-       </header>
-        <div class="main-container">
-            <div id="profile-is-edited"></div>
-            <br>
-            <div>
-                <button onclick="saveChanges()" name="save-btn" id="but-on">SAVE</button>
-            </div>
+<body onload="editingProfile()">
+    <header id="head-space">
+        <h1 class="head-title">UPDATE PROFILE</h1>
+    </header>
+    <div class="main-container">
+        <div id="profile-is-edited"></div>
+        <br>
+        <div class="button-container">
+            <button onclick="saveChanges()" name="save-btn" id="but-on">SAVE</button>
         </div>
-        <script src="../js/editprofile.js" async></script>
-    </body>
+    </div>
+    <script src="../js/editprofile.js" async></script>
+</body>
+
 </html>

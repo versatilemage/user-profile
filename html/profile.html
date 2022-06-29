@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Profile page</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/profile.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/profile.css">
+</head>
 
-    <body onload="profileLoading()">
-       <header id="head-space">
-        <h2 id="headed">PROFILE PREVIEW</h2>
-       </header>
-        <div class="main-container">
-            <div id="profile-details"></div>
-            <br>
+<body onload="profileLoading()">
+    <header id="head-space">
+        <h2 class="head-title">PROFILE PREVIEW</h2>
+    </header>
+    <div class="main-container">
+        <div id="profile-details"></div>
+        <br>
+        <div class="button-container">
             <button onclick="editProfile()" name="edit-btn" id="edt-btn">EDIT</button>
         </div>
-        
-        <script src="../js/profile.js" async></script>
-    </body>
+
+    </div>
+
+    <script src="../js/profile.js" async></script>
+</body>
+
 </html>
