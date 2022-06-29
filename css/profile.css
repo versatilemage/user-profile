@@ -1,0 +1,85 @@
+:root {
+    --clr-bg: rgb(154, 154, 226);
+    --clr-main: rgb(148, 0, 174);
+    --clr-sub: rgb(255, 217, 0);
+    --clr-border: rgb(0, 0, 0);
+}
+
+body{
+    background: rgb(22, 22, 22);
+}
+
+#head-space {
+    background: var(--clr-main);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container {
+    width: 960px;
+    margin: 1em auto 0;
+    padding: 1em 1.5em;
+    background: var(--clr-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headed {
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0.2em 0.5em 0.5em black;
+}
+
+#edt-btn {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+#edt-btn:hover {
+    background: var(--clr-sub);
+    color: red;
+}
+
+.media-scroller {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 1em;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 20%;
+    gap: 2em;
+    height: 25em;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#profile-details {
+    background: var(--clr-sub);
+    padding: 2em;
+    text-align: center;
+    border-radius: 1em;
+    border: solid 0.05em var(--clr-border);
+    margin-bottom: 1em;
+    margin-top: 1em;
+    box-shadow: 0 0 1.2em var(--clr-border);
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    transition: 0.8s;
+    font-size: 700;
+    font-size: 1.5em;
+}
+
+.user-thumb > img {
+    inline-size: 50%;
+    aspect-ratio: 12 / 14;
+    object-fit: cover;
+    border-radius: 1em;
+    border: solid 0.05em rgb(0, 0, 0);
+}
