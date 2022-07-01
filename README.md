@@ -1,6 +1,9 @@
 # user-profile
 The project consists of details of various members which is in the form of JSON
 
+<h2>Demo video:</h2>
+<a href="https://mohammed-profile.netlify.app/index.html">Project-review</a>
+
 This is the main page where we can see all the users accounts and their details and you can select them by clicking the numbers in the right side of the ID
 ![screen-shot(profile view)](https://user-images.githubusercontent.com/104298679/176442279-c95f99eb-46e8-494b-830d-c38911e6a05a.jpg)
 
